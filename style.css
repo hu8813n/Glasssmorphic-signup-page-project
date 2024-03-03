@@ -12,12 +12,15 @@
     width: 100vw;
     height:100vh;
     background: linear-gradient(to top left, #3ed8ff , #a8f5ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .inner-box{
     width: 400px;
     margin: 0 auto;
     position: relative;
-    top: 40%;
+    top: 30%;
     transform: translateY(-50%); /*jitni bhi height thi uska 50% upar jachuka h--- inner-box apne height ka 50% upar chala jayega  */
     padding: 20px 40px;
     /* background-color: #ffffff09; */
